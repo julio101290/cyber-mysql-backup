@@ -1,0 +1,103 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5009
+ * Running on http://192.168.0.34:5009
+[33mPress CTRL+C to quit[0m
+192.168.0.34 - - [21/Oct/2026 16:41:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:41:46] "GET /login HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:41:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.0.34 - - [21/Oct/2026 16:41:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:41:57] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:42:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:42:04] "GET /login HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:42:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:42:13] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:44:20] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:44:20] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:45:35] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:45:35] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:45:44] "[35m[1mPOST /api/test_backup HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:46:09] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:46:10] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:46:13] "[35m[1mPOST /api/test_backup HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:46:26] "[35m[1mPOST /api/run_backup HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:46:52] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:46:52] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:46:56] "[35m[1mPOST /api/test_mount HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:47:00] "[35m[1mPOST /api/test_backup HTTP/1.1[0m" 500 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5009
+ * Running on http://192.168.0.34:5009
+[33mPress CTRL+C to quit[0m
+192.168.0.34 - - [21/Oct/2026 16:53:53] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:54:02] "[35m[1mPOST /api/test_backup HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:54:23] "[35m[1mPOST /api/test_mount HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:54:40] "[35m[1mPOST /api/test_mount HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:54:58] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:54:59] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:55:02] "[35m[1mPOST /api/test_mount HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:55:24] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:55:24] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:56:20] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:56:20] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:56:25] "[35m[1mPOST /api/test_mount HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:56:32] "[35m[1mPOST /api/test_mount HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 16:57:06] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 16:57:07] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 16:57:09] "[35m[1mPOST /api/test_mount HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 17:03:03] "POST /api/test_mount HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:03:05] "POST /api/test_mount HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:03:08] "[35m[1mPOST /api/test_backup HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 17:03:16] "POST /api/test_mount HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:03:33] "[35m[1mPOST /api/test_backup HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 17:03:37] "POST /api/test_mount HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:04:04] "[35m[1mPOST /api/test_backup HTTP/1.1[0m" 500 -
+192.168.0.34 - - [21/Oct/2026 17:12:31] "POST /api/test_mount HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:12:38] "POST /api/test_backup HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:12:55] "POST /api/run_backup HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:13:22] "POST /api/test_backup HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:13:36] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 17:13:36] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:14:04] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 17:14:05] "GET / HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5009
+ * Running on http://192.168.0.34:5009
+[33mPress CTRL+C to quit[0m
+192.168.0.34 - - [21/Oct/2026 17:18:25] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:18:37] "POST /api/test_backup HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:18:51] "POST /api/run_backup HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:19:39] "[32mPOST /save_config HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 17:19:39] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:19:43] "POST /api/run_backup HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:22:46] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:23:37] "GET / HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5009
+ * Running on http://192.168.0.34:5009
+[33mPress CTRL+C to quit[0m
+192.168.0.34 - - [21/Oct/2026 17:24:14] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:25:14] "[32mGET /set_lang/en HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 17:25:14] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:25:31] "[32mGET /set_lang/es HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 17:25:31] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:26:38] "GET / HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5009
+ * Running on http://192.168.0.34:5009
+[33mPress CTRL+C to quit[0m
+192.168.0.34 - - [21/Oct/2026 17:26:56] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:27:00] "[32mGET /set_lang/en HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 17:27:01] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:27:05] "[32mGET /set_lang/it HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 17:27:05] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:27:10] "[32mGET /set_lang/en HTTP/1.1[0m" 302 -
+192.168.0.34 - - [21/Oct/2026 17:27:11] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:28:28] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:28:30] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:28:32] "GET / HTTP/1.1" 200 -
+192.168.0.34 - - [21/Oct/2026 17:28:37] "POST /api/run_backup HTTP/1.1" 200 -
